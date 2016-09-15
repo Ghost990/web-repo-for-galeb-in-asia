@@ -9,7 +9,8 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	background: #0099CC;
+	background: url(images/galeb-bw-glass-fit.jpg) repeat center;
+	border-top: 10px solid #FFFFFF;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 12pt;
 	font-weight: 300;
@@ -263,6 +264,7 @@ ul.contact li a.icon-rss:before
 #wrapper
 {
 	background: #FFF;
+	padding: 5em 0em;
 }
 
 /*********************************************************************************/
@@ -271,10 +273,7 @@ ul.contact li a.icon-rss:before
 
 #header-wrapper
 {
-	background: url(images/galeb-bw-glass.jpg) no-repeat center;
-	background-size: cover;
-	border-top: 10px solid #FFFFFF;
-	background-attachment: fixed;
+
 }
 
 #header
@@ -362,7 +361,7 @@ ul.contact li a.icon-rss:before
 
 	#banner
 {
-	padding: 10em 0em;
+	padding: 15em 0em;
 }
 
 #banner span
@@ -416,25 +415,24 @@ ul.contact li a.icon-rss:before
 }
 
 /*********************************************************************************/
-/* Copyright                                                                     */
+/* contact                                                                     */
 /*********************************************************************************/
 
-	#copyright
+	#contact
 {
 	overflow: hidden;
 	padding: 5em 0em;
 }
 
-#copyright p
+#contact p
 {
 	letter-spacing: 0.20em;
 	text-align: center;
-	text-transform: uppercase;
 	font-size: 0.80em;
 	color: rgba(255,255,255,0.6);
 }
 
-#copyright a
+#contact a
 {
 	text-decoration: none;
 	color: rgba(255,255,255,0.9);
