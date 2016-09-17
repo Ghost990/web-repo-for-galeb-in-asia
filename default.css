@@ -246,9 +246,9 @@ ul.contact li a.icon-rss:before
 /* 2-column                                                                      */
 /*********************************************************************************/
 
-	.tbox1,  .tbox2
+.tbox1,  .tbox2
 {
-	width: 575px;
+	width: 500px;
 }
 
 .tbox1
@@ -260,6 +260,12 @@ ul.contact li a.icon-rss:before
 {
 	float: right;
 }
+
+.tbox1 img,  .tbox2 img
+{
+	border: 1px solid #ccc;
+}
+
 
 #wrapper
 {
@@ -436,6 +442,13 @@ ul.contact li a.icon-rss:before
 {
 	text-decoration: none;
 	color: rgba(255,255,255,0.9);
+}
+
+#bottomline
+{
+height: 10px;
+width: 100%;
+background-color: #0099CC;
 }
 
 /*********************************************************************************/
