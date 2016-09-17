@@ -9,7 +9,7 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	background: url(images/galeb-bw-glass-fit.jpg) repeat center;
+	background: #CCCCCC url(images/galeb-bw-glass-fit.jpg) repeat center;
 	border-top: 10px solid #FFFFFF;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 12pt;
@@ -23,7 +23,7 @@ h1, h2, h3
 	padding: 0;
 }
 
-p, ol, ul
+/*p, ol, ul
 {
 	margin-top: 0;
 }
@@ -32,7 +32,7 @@ ol, ul
 {
 	padding: 0;
 	list-style: none;
-}
+}*/
 
 p
 {
@@ -46,6 +46,7 @@ strong
 a
 {
 	color: #CC0000;
+	text-decoration: none;
 }
 
 a:hover
@@ -56,7 +57,7 @@ a:hover
 .container
 {
 	overflow: hidden;
-	margin: 0em auto;
+	margin: 0em auto 5em;
 	width: 1000px;
 }
 
@@ -248,7 +249,7 @@ ul.contact li a.icon-rss:before
 
 .tbox1,  .tbox2
 {
-	width: 500px;
+	width: 452px;
 }
 
 .tbox1
@@ -267,11 +268,22 @@ ul.contact li a.icon-rss:before
 }
 
 
+
+
+img.social-icon
+{
+	border: 0 none;
+	width: 42px;
+	height: 42px;
+	padding: 5px 5px 5px 0;
+}
+
 #wrapper
 {
 	background: #FFF;
 	padding: 5em 0em;
 }
+
 
 /*********************************************************************************/
 /* Header                                                                        */
@@ -292,9 +304,9 @@ ul.contact li a.icon-rss:before
 /* Logo                                                                          */
 /*********************************************************************************/
 
-#logo
+img.logo
 {
-
+ width: 250px;
 }
 
 #logo h1
@@ -367,7 +379,7 @@ ul.contact li a.icon-rss:before
 
 	#banner
 {
-	padding: 15em 0em;
+	padding: 22em 0em;
 }
 
 #banner span
