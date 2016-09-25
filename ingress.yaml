@@ -1,0 +1,12 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: ingress
+spec:
+  rules:
+  - host: galeb-in-asia.com
+    http:
+      paths:
+      - backend:
+          serviceName: web-galeb-in-asia-pmixh
+          servicePort: 80

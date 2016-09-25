@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
 cd "$(dirname "$0")" && docker run -it --rm \
-  -p 80:80 -v ${PWD}/src:/usr/share/nginx/html:ro nginx
+  -v ${PWD}/src:/usr/share/nginx/html:ro \
+  -v ${PWD}/nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf:ro \
+  -p 80:80 nginx

@@ -10,10 +10,15 @@
 
 ## Deployment
 
-## Build
-`docker build -t web-for-galeb-in-asia .`
+### Build
+```
+docker build -t web-deploy-for-galeb-in-asia .
+docker tag web-deploy-for-galeb-in-asia olivernadj/web-deploy-for-galeb-in-asia
+docker push olivernadj/web-deploy-for-galeb-in-asia
+```
 
-## Run
+
+### Run
 `docker run -it --rm -p 80:80 web-for-galeb-in-asia`
 
 ## License
