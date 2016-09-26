@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: web-galeb-in-asia
+  name: web-galeb-in-asia
+  namespace: default
+spec:
+  clusterIP: 10.59.253.7
+  ports:
+  - name: tcp-80-80-kwka3
+    nodePort: 31250
+    port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: web-galeb-in-asia
+  sessionAffinity: None
+  type: LoadBalancer
+  loadBalancerIP: 104.199.12.50

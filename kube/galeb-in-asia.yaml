@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Deployment
+metadata:
+  name: galeb-in-asia
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        run: galeb-in-asia
+    spec:
+      containers:
+      - name: galeb-in-asia
+        image: olivernadj/web-deploy-for-galeb-in-asia
+        ports:
+        - containerPort: 80
