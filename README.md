@@ -19,7 +19,14 @@ docker push olivernadj/web-deploy-for-galeb-in-asia
 
 
 ### Run
-`docker run -it --rm -p 80:80 web-for-galeb-in-asia`
+`docker run -it --rm -p 80:80 olivernadj/web-for-galeb-in-asia`
+```
+docker pull olivernadj/web-deploy-for-galeb-in-asia && \
+docker stop web-deploy-for-galeb-in-asia-container && \
+docker rm web-deploy-for-galeb-in-asia-container && \
+docker run --name=web-deploy-for-galeb-in-asia-container --restart=always \
+  -p 80:80 -d olivernadj/web-deploy-for-galeb-in-asia
+```
 
 ## License
 
