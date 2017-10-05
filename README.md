@@ -19,13 +19,22 @@ docker push olivernadj/web-deploy-for-galeb-in-asia
 
 
 ### Run
-`docker run -it --rm -p 80:80 olivernadj/web-for-galeb-in-asia`
 ```
 docker pull olivernadj/web-deploy-for-galeb-in-asia && \
 docker stop web-deploy-for-galeb-in-asia-container && \
 docker rm web-deploy-for-galeb-in-asia-container && \
 docker run --name=web-deploy-for-galeb-in-asia-container --restart=always \
+  -e 'REGISTER_ENV=1' -e 'CAPTCHA_SECRET=***' -e 'MAILGUN_KEY=***' -e 'CONTACT_TO=***' \
   -p 80:80 -d olivernadj/web-deploy-for-galeb-in-asia
+```
+
+
+### Dev
+```
+docker build -t dev-galeb-in-asia .
+docker run --name dev-galeb-in-asia-container -e 'REGISTER_ENV=1' \
+  -e 'CAPTCHA_SECRET=***' -e 'MAILGUN_KEY=***' -e 'CONTACT_TO=***' \
+  -p 80:80 -p 443:443 --rm -it dev-galeb-in-asia
 ```
 
 ## License

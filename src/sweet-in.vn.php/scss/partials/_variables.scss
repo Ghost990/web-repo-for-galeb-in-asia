@@ -1,0 +1,13 @@
+// main: ../main.scss
+
+$red: #DE0000;
+$gold: #FBDDAF;
+$text: #333333;
+
+@mixin transition($prop, $values...) {
+  -moz-#{$prop}: $values;
+  -ms-#{$prop}: $values;
+  -o-#{$prop}: $values;
+  -webkit-#{$prop}: $values;
+  $prop: $values;
+}
