@@ -40,9 +40,17 @@
         <ul class="mobile-menu center list-unstyled">
           <li class="mobile-menuitem"><a href="#block-2">Our Product</a></li>
           <li class="mobile-menuitem"><a href="#block-3">Market Analysis</a></li>
-          <li class="mobile-menuitem"><a href="#block-4">About Us</a></li>
+          <li class="mobile-menuitem"><a href="#block-4">Our Company</a></li>
           <li class="mobile-menuitem"><a href="#block-5">Contact Us</a></li>
         </ul>
+        <div class="langselector">
+          <a href="index_en.php">
+            <span class="language language-en active"></span>
+          </a>
+          <a href="index.php">
+            <span class="language language-vn"></span>
+          </a>
+        </div>
       </div>
     </nav>
 
@@ -59,17 +67,17 @@
 
             <nav class="visible-desktop">
               <ul class="main-menu center">
-                <li><a href="#block-2">Our ProductVN</a></li>
-                <li><a href="#block-3">Market AnalysisVN</a></li>
-                <li><a href="#block-4">About UsVN</a></li>
-                <li><a href="#block-5">Contact UsVN</a></li>
+                <li><a href="#block-2">Our Product</a></li>
+                <li><a href="#block-3">Market Analysis</a></li>
+                <li><a href="#block-4">Our Company</a></li>
+                <li><a href="#block-5">Contact Us</a></li>
               </ul>
               <div class="langselector">
-                <a href="index.php">
-                  <span class="language language-en"></span>
+                <a href="index_en.php">
+                  <span class="language language-en active"></span>
                 </a>
-                <a href="index_vn.php">
-                  <span class="language language-vn active"></span>
+                <a href="index.php">
+                  <span class="language language-vn"></span>
                 </a>
               </div>
             </nav>
@@ -101,7 +109,9 @@
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl nisi, egestas auctor neque eu, fermentum posuere lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer mauris urna, aliquet et molestie imperdiet, maximus in mi. Aliquam non orci ex. Cras nisi nisl, maximus at viverra sed, iaculis non libero. Aenean non pulvinar quam. Ut sed elit nec urna porttitor facilisis. Nunc vitae metus quis odio placerat tincidunt at sit amet purus. Aenean congue justo nulla, non bibendum tortor euismod non. Ut finibus eros id arcu porta condimentum. Etiam sollicitudin aliquet ante vitae tristique. Vivamus quis posuere dolor. Nam lacinia accumsan consectetur. Donec semper et velit ut vulputate. Nullam et felis risus.
+              Mony rice is the favorite product among younger and older consumers. Perfect combination of puffed rice and fine cacao cream is what makes this brand one of the most-selling ones in the range of Pionir candies.
+              <br/>
+              Properly formed tablets, with shiny surface and charasteristic color of cocoa cream products. Characteristic odor and flavor of cocoa cream bars. Fine melting sense in the mouth during consumption, without sandy textures, equally distributed expanded rice on the cross section of tablets.
             </p>
           </div>
         </div>
@@ -120,8 +130,8 @@
             Industry Description and Outlook
           </h2>
           <p>
-            In Europe chocolate factories are generally last long, traditional companies established hundreds of years ago. Our 1st parter - PIONIR d.o.o. Beograd, Serbia - has been established in the year 1917 in Subotica, an industrial city at the Northern tip of Serbia. Basically it means the product supply is stable.
-            In other hand the Asian market is growing rapidly. Southeast Asia has enjoyed remarkable economic progress in recent years; millions have been lifted out of poverty. Both the chocolate consumption and the chocolate market - especially in Vietnam - is in his newborn age.
+            In Europe chocolate factories are generally last long, traditional companies established hundreds of years ago. The Chocolate Factory - PIONIR d.o.o. Beograd, Serbia - has been established in the year 1917 in Subotica, an industrial city at the Northern tip of Serbia.
+            The Asian market is growing rapidly and Southeast Asia has enjoyed remarkable economic progress in recent years; millions have been lifted out of poverty. Both the chocolate consumption and the chocolate market - especially in Vietnam - is in his newborn age.
           </p>
         </div>
         <br />
@@ -179,13 +189,20 @@
       <div class="container">
         <div class="maintitle">
           <h1>
-            About Us
+            Our Company
           </h1>
           <span class="underline underline-gold"></span>
         </div>
         <div class="row">
-          <p class="text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl nisi, egestas auctor neque eu, fermentum posuere lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer mauris urna, aliquet et molestie imperdiet, maximus in mi.
+          <p>
+            Sweet In-Limited has a lower coster, startup mindset. We believe Asia is at the transition from manufacturing to consuming.
+            <br/>
+            The cream product with puffed rice what we choosen for start met with many - must have - conditions:<br/>
+             * Best Buy in his category<br/>
+             * Trustfully, traditional manufacturer<br/>
+             * Unique in Asia<br/>
+            <br/>
+            <a href="https://www.facebook.com/B%C3%A1nh-C%E1%BB%91m-G%E1%BA%A1o-Pionir-Mony-Rice-Nh%E1%BA%ADp-Kh%E1%BA%A9u-T%E1%BB%AB-Serbia-382454305506448/">Follow Us on Facebook &gt;&gt;</a>
           </p>
         </div>
         <div class="row">
@@ -197,12 +214,37 @@
               <h2 class="name">
                 Nguyen My Hien
               </h2>
+              <div>
+                CEO
+              </div>
+              <div class="phone">
+                +84-9-61766627
+              </div>
               <div class="email">
-                <a href="mailto:myhiennagy@sweet-in.vn">myhiennagy@sweet-in.vn</a>
+                <a href="mailto:hien@sweet-in.vn">hien@sweet-in.vn</a>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-xl-6 col-sm-12 col-xs-12 person">
+            <div class="image">
+              <img src="img/dao.png" class="img-fluid" />
+            </div>
+            <div class="info text-center">
+              <h2 class="name">
+                Ngo Thuy Dao
+              </h2>
+              <div>
+                Sales Director Nationwide
+              </div>
+              <div class="phone">
+                +84-9-63270209
+              </div>
+              <div class="email">
+                <a href="mailto:dao@sweet-in.vn">dao@sweet-in.vn</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-6 col-sm-12 col-xs-12 person" style="margin: auto;">
             <div class="image">
               <img src="img/oliver.png" class="img-fluid" />
             </div>
@@ -210,8 +252,14 @@
               <h2 class="name">
                 Oliver Nagy
               </h2>
+              <div>
+                Procurement
+              </div>
+              <div class="phone">
+                +84-1-229880451 | +85-25-8014149 | +381-64-4892313
+              </div>
               <div class="email">
-                <a href="mailto:olivernagy@sweet-in.vn">olivernagy@sweet-in.vn</a>
+                <a href="mailto:oliver@sweet-in.vn">oliver@sweet-in.vn</a>
               </div>
             </div>
           </div>
@@ -230,7 +278,7 @@
           <?php 
             //Language code for including translation file and reCAPTCHA language
             //see https://developers.google.com/recaptcha/docs/language
-            $lang_code = 'vn';
+            $lang_code = 'en';
             include 'contact_form.php';
            ?>
         </div>
@@ -242,12 +290,15 @@
       <div class="row">
         <div class="copytext text-center">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl nisi, egestas auctor neque eu, fermentum posuere lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer mauris urna, aliquet et molestie imperdiet, maximus in mi.
+            SWEET IN - LIMITED<br/>
+            60 Nguyen Van Thu, Da Kao, District 1, HCMC<br/>
+            Tax code:  0314206682<br/>
+            +84-9-61766627
           </p>
         </div>
         <div class="copyright text-center">
           <p>
-            <?php date("Y") ?> - All Rights Reserved.
+            <?php echo date("Y"); ?> - All Rights Reserved.
           </p>
         </div>
       </div>

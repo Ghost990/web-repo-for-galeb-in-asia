@@ -8,7 +8,7 @@ $lang_translate=array(
   'Submit' => 'Send',
 
   'recaptcha_test' => 'Prove that you\'re not a robot:',
-  'recaptcha_prompt' => 'Plese solve the reCAPTCHA test',
+  'recaptcha_prompt' => 'Please solve the reCAPTCHA test',
   'recaptcha_error_msg' => 'reCAPTCHA test was unsucessful',
 
   'success_msg' => 'Your message was sent successfully.',

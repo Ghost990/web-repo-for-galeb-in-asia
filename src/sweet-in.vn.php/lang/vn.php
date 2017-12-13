@@ -1,17 +1,17 @@
 <?php
 $lang_translate=array(
-  'Contact form' => 'Contact form',
-  'Name' =>  'Name',
+  'Contact form' => 'Mẫu liên hệ',
+  'Name' =>  'Tên',
   'Email' =>  'Email',
-  'Message' =>  'Message',
-  'From' => 'From',
-  'Submit' => 'Send',
+  'Message' =>  'Thông điệp',
+  'From' => 'Từ',
+  'Submit' => 'Gửi',
 
-  'recaptcha_test' => 'Prove that you\'re not a robot:',
-  'recaptcha_prompt' => 'Plese solve the reCAPTCHA test',
-  'recaptcha_error_msg' => 'reCAPTCHA test was unsucessful',
+  'recaptcha_test' => 'Chứng minh rằng bạn không phải là robot:',
+  'recaptcha_prompt' => 'Hãy giải quyết bài kiểm tra reCAPTCHA',
+  'recaptcha_error_msg' => 'kiểm tra reCAPTCHA không có ý nghĩa',
 
-  'success_msg' => 'Your message was sent successfully.',
-  'error_msg' => 'There was an error. Please try sending your message later.',
-  'return_msg' => 'Click here to return...',
+  'success_msg' => 'Thư của bạn đã được gửi thành công',
+  'error_msg' => 'Có lỗi. Hãy thử gửi tin nhắn của bạn sau.',
+  'return_msg' => 'Nhấp vào đây để quay lại ...',
 );

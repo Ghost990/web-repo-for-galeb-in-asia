@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Sweet In-Limited</title>
+    <title>CÔNG TY TNHH SWEET IN</title>
 
     <meta property="og:url"                content="<?php $_SERVER['REQUEST_URI'] ?>" />
     <meta property="og:type"               content="website" />
-    <meta property="og:title"              content="Sweet In-Limited" />
-    <meta property="og:description"        content="Where Tradition Meets Quality" />
+    <meta property="og:title"              content="CÔNG TY TNHH SWEET IN" />
+    <meta property="og:description"        content="Nơi truyền thống và chất lượng hội ngộ" />
     <meta property="og:image"              content="<?php $_SERVER['REQUEST_URI'] ?>/img/share.png" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
@@ -38,16 +38,16 @@
     <nav id="menu" class="mobile-menu visible-mobile">
       <div class="slide-menu menu">
         <ul class="mobile-menu center list-unstyled">
-          <li class="mobile-menuitem"><a href="#block-2">Our Product</a></li>
-          <li class="mobile-menuitem"><a href="#block-3">Market Analysis</a></li>
-          <li class="mobile-menuitem"><a href="#block-4">About Us</a></li>
-          <li class="mobile-menuitem"><a href="#block-5">Contact Us</a></li>
+          <li class="mobile-menuitem"><a href="#block-2">Sản phẩm</a></li>
+          <li class="mobile-menuitem"><a href="#block-3">Phân tích thị trường</a></li>
+          <li class="mobile-menuitem"><a href="#block-4">Công ty của chúng tôi</a></li>
+          <li class="mobile-menuitem"><a href="#block-5">Liên hệ với chúng tôi</a></li>
         </ul>
         <div class="langselector">
-          <a href="index.php">
+          <a href="index_en.php">
             <span class="language language-en active"></span>
           </a>
-          <a href="index_vn.php">
+          <a href="index.php">
             <span class="language language-vn"></span>
           </a>
         </div>
@@ -67,17 +67,17 @@
 
             <nav class="visible-desktop">
               <ul class="main-menu center">
-                <li><a href="#block-2">Our Product</a></li>
-                <li><a href="#block-3">Market Analysis</a></li>
-                <li><a href="#block-4">About Us</a></li>
-                <li><a href="#block-5">Contact Us</a></li>
+                <li><a href="#block-2">Sản phẩm</a></li>
+                <li><a href="#block-3">Phân tích thị trường</a></li>
+                <li><a href="#block-4">Công ty của chúng tôi</a></li>
+                <li><a href="#block-5">Liên hệ với chúng tôi</a></li>
               </ul>
               <div class="langselector">
-                <a href="index.php">
-                  <span class="language language-en active"></span>
+                <a href="index_en.php">
+                  <span class="language language-en"></span>
                 </a>
-                <a href="index_vn.php">
-                  <span class="language language-vn"></span>
+                <a href="index.php">
+                  <span class="language language-vn active"></span>
                 </a>
               </div>
             </nav>
@@ -98,7 +98,7 @@
       <div class="container">
         <div class="maintitle">
           <h1>
-            Our Product
+            Sản phẩm
           </h1>
           <span class="underline underline-gold"></span>
         </div>
@@ -109,7 +109,9 @@
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl nisi, egestas auctor neque eu, fermentum posuere lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer mauris urna, aliquet et molestie imperdiet, maximus in mi. Aliquam non orci ex. Cras nisi nisl, maximus at viverra sed, iaculis non libero. Aenean non pulvinar quam. Ut sed elit nec urna porttitor facilisis. Nunc vitae metus quis odio placerat tincidunt at sit amet purus. Aenean congue justo nulla, non bibendum tortor euismod non. Ut finibus eros id arcu porta condimentum. Etiam sollicitudin aliquet ante vitae tristique. Vivamus quis posuere dolor. Nam lacinia accumsan consectetur. Donec semper et velit ut vulputate. Nullam et felis risus.
+              Bánh gạo socôla là một trong những sản phẩm được yêu thích nhất cho tất  cả các khách hàng ở mọi lứa tuổi từ già đến trẻ. Sự kết hợp hoàn hảo giữa những hạt gạo căng mọng và cacao chất lượng cao đã làm nên thương hiệu BÁN CHẠY NHẤT  của dòng sản phẩm bánh kẹo của nhà máy Pionir. 
+              <br/>
+              Các hạt cốm gạo dạng đứng, hình thoi, với bề mặt căng bóng được lựa chọn kỹ càng và màu sắc đặc trưng của cacao tạo nên sản phẩm.
             </p>
           </div>
         </div>
@@ -119,28 +121,28 @@
       <div class="container">
         <div class="maintitle">
           <h1>
-            Market Analysis
+            Phân tích thị trường
           </h1>
           <span class="underline underline-red"></span>
         </div>
         <div class="row">
           <h2>
-            Industry Description and Outlook
+            Mô tả Công nghiệp và Triển vọng
           </h2>
           <p>
-            In Europe chocolate factories are generally last long, traditional companies established hundreds of years ago. Our 1st parter - PIONIR d.o.o. Beograd, Serbia - has been established in the year 1917 in Subotica, an industrial city at the Northern tip of Serbia. Basically it means the product supply is stable.
-            In other hand the Asian market is growing rapidly. Southeast Asia has enjoyed remarkable economic progress in recent years; millions have been lifted out of poverty. Both the chocolate consumption and the chocolate market - especially in Vietnam - is in his newborn age.
+            Ở Châu Âu, các nhà máy sô cô la thường lâu đời, các công ty truyền thống được thành lập cách đây hàng trăm năm. Nhà máy sô cô la - PIONIR d.o.o. Beograd, Serbia - được thành lập vào năm 1917 tại Subotica, một thành phố công nghiệp ở đỉnh phía Bắc của Serbia.
+            Thị trường châu Á đang phát triển nhanh chóng và Đông Nam Á đã đạt được tiến bộ đáng kể về kinh tế trong những năm gần đây; hàng triệu người đã thoát khỏi đói nghèo. Cả mức tiêu thụ sôcôla và thị trường sôcôla - đặc biệt là ở Việt Nam - đang ở giai đoạn bắt đầu.
           </p>
         </div>
         <br />
         <div class="row">
           <h2>
-            Information About Our Target Market
+            Thông tin về  mục tiêu thị trường của chúng tôi
           </h2>
           <p>
-            Cream product with puffed rice target market is men and women of all ages in urban area. The brand is youthful in nature, and focuses on the consumer segment who love chocolate, and are willing to indulge themselves with chocolaty snacks. What draws consumers to this brand is its association with every daily compliment. It’s low prices, constant over the past 50 years, allows it to target the mass consumer market.
+            Sản phẩm bánh gạo phủ với kem socôla với thị trường mục tiêu là những người trẻ, cả nam giới và phụ nữ thuộc mọi lứa tuổi ở khu vực thành thị. Thương hiệu này có tính chất trẻ trung, và tập trung vào phân khúc người tiêu dùng, những người yêu thích sôcôla, và sẵn sàng thưởng thức những món ăn nhẹ kiểu sôcôla. Điều thu hút người  dùng đến thương hiệu này là mối liên hệ tốt của sản phẩm với lời khen thực tế hàng ngày về chất lượng, giá cả lại rất "mềm " phù hợp với túi tiền nên liên tục trong 50 năm qua, đã cho phép sản phẩm nhắm mục tiêu đến thị trường tiêu dùng hàng loạt.
             <br /><br />
-            In our target market many variants of “chocolate-covered wafer” widely available, but nether the wafer nor the chocolate has tradition in Asia.
+            Trong thị trường mục tiêu của chúng tôi nhiều biến thể của "wafer sôcôla phủ" phổ biến rộng rãi, nhưng dưới wafer cũng không phải là sô cô la có truyền thống ở châu Á.
           </p>
         </div>
         <br />
@@ -187,13 +189,20 @@
       <div class="container">
         <div class="maintitle">
           <h1>
-            About Us
+            Công ty của chúng tôi
           </h1>
           <span class="underline underline-gold"></span>
         </div>
         <div class="row">
-          <p class="text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl nisi, egestas auctor neque eu, fermentum posuere lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer mauris urna, aliquet et molestie imperdiet, maximus in mi.
+          <p>
+            Công ty trách nhiệm hữu hạn  Sweet In có chi phí thấp, là dự án khởi nghiệp vì chúng tôi tin rằng Châu Á đang chuyển mình không chỉ có sản xuất mà còn tiêu dùng kèm theo. 
+            <br/>
+            Bánh gạo phủ socôla được lựa chọn để khởi nghiệp thỏa được các tiêu chí mà doanh nghiệp chúng tôi đang theo đuổi như sau:<br/>
+             * Mua tốt nhất trong danh mục của mình<br/>
+             * Nhà sản xuất truyền thống đáng tin cậy<br/>
+             * Độc đáo ở Châu Á<br/>
+            <br/>
+            <a href="https://www.facebook.com/B%C3%A1nh-C%E1%BB%91m-G%E1%BA%A1o-Pionir-Mony-Rice-Nh%E1%BA%ADp-Kh%E1%BA%A9u-T%E1%BB%AB-Serbia-382454305506448/">Follow Us on Facebook &gt;&gt;</a>
           </p>
         </div>
         <div class="row">
@@ -205,12 +214,37 @@
               <h2 class="name">
                 Nguyen My Hien
               </h2>
+              <div>
+                CEO
+              </div>
+              <div class="phone">
+                +84-9-61766627
+              </div>
               <div class="email">
-                <a href="mailto:myhiennagy@sweet-in.vn">myhiennagy@sweet-in.vn</a>
+                <a href="mailto:hien@sweet-in.vn">hien@sweet-in.vn</a>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-xl-6 col-sm-12 col-xs-12 person">
+            <div class="image">
+              <img src="img/dao.png" class="img-fluid" />
+            </div>
+            <div class="info text-center">
+              <h2 class="name">
+                Ngo Thuy Dao
+              </h2>
+              <div>
+                Giám Đốc Kinh Doanh Toàn Quốc
+              </div>
+              <div class="phone">
+                +84-9-63270209
+              </div>
+              <div class="email">
+                <a href="mailto:dao@sweet-in.vn">dao@sweet-in.vn</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-6 col-sm-12 col-xs-12 person" style="margin: auto;">
             <div class="image">
               <img src="img/oliver.png" class="img-fluid" />
             </div>
@@ -218,8 +252,14 @@
               <h2 class="name">
                 Oliver Nagy
               </h2>
+              <div>
+                Tạp vụ
+              </div>
+              <div class="phone">
+                +84-1-229880451 | +85-25-8014149 | +381-64-4892313
+              </div>
               <div class="email">
-                <a href="mailto:olivernagy@sweet-in.vn">olivernagy@sweet-in.vn</a>
+                <a href="mailto:oliver@sweet-in.vn">oliver@sweet-in.vn</a>
               </div>
             </div>
           </div>
@@ -230,7 +270,7 @@
       <div class="container">
         <div class="maintitle">
           <h1>
-            Contact Us
+            Sổ liên lạc
           </h1>
           <span class="underline underline-red"></span>
         </div>
@@ -238,7 +278,7 @@
           <?php 
             //Language code for including translation file and reCAPTCHA language
             //see https://developers.google.com/recaptcha/docs/language
-            $lang_code = 'en';
+            $lang_code = 'vn';
             include 'contact_form.php';
            ?>
         </div>
@@ -250,12 +290,15 @@
       <div class="row">
         <div class="copytext text-center">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl nisi, egestas auctor neque eu, fermentum posuere lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer mauris urna, aliquet et molestie imperdiet, maximus in mi.
+            CÔNG TY TNHH SWEET IN<br/>
+            60 Nguyễn Văn Thủ, P. Đa Kao, Quận 1, TP. HCM<br/>
+            Mã số thuế:  0314206682<br/>
+            +84-9-61766627
           </p>
         </div>
         <div class="copyright text-center">
           <p>
-            <?php echo date("Y"); ?> - All Rights Reserved.
+            <?php echo date("Y"); ?> - Đã đăng ký Bản quyền.
           </p>
         </div>
       </div>
