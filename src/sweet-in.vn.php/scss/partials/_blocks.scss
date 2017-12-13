@@ -34,6 +34,11 @@
       height: 650px;
       background: url('../img/logo.svg') no-repeat;
     }
+    .logo-vn {
+      width: 800px;
+      height: 650px;
+      background: url('../img/logo_vn.svg') no-repeat;
+    }
   }
 }
 
@@ -94,6 +99,23 @@
         background: $red;
         border: none;
         margin: 0 auto;
+      }
+    }
+  }
+}
+
+.block-6 {
+  .like-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .like-box-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 500px;
+      @include media-breakpoint-down(md) {
+        width: 100%;
       }
     }
   }

@@ -30,6 +30,15 @@
   </head>
   <body data-anm=".anm">
 
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=229196807581956';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
   <div class="blocks">
 
     <div class="chocolate-left" data-enllax-ratio=".5" data-enllax-type="foreground"></div>
@@ -84,7 +93,7 @@
           </header>
         </div>
         <div class="row logo-wrapper">
-          <div class="logo anm"
+          <div class="logo-vn anm"
           data-speed-x="-5"
           data-speed-y="-5"
           data-speed-scale="0"
@@ -109,7 +118,7 @@
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
             <p>
-              Bánh gạo socôla là một trong những sản phẩm được yêu thích nhất cho tất  cả các khách hàng ở mọi lứa tuổi từ già đến trẻ. Sự kết hợp hoàn hảo giữa những hạt gạo căng mọng và cacao chất lượng cao đã làm nên thương hiệu BÁN CHẠY NHẤT  của dòng sản phẩm bánh kẹo của nhà máy Pionir. 
+              Bánh gạo socôla là một trong những sản phẩm được yêu thích nhất cho tất  cả các khách hàng ở mọi lứa tuổi từ già đến trẻ. Sự kết hợp hoàn hảo giữa những hạt gạo căng mọng và cacao chất lượng cao đã làm nên thương hiệu BÁN CHẠY NHẤT  của dòng sản phẩm bánh kẹo của nhà máy Pionir.
               <br/>
               Các hạt cốm gạo dạng đứng, hình thoi, với bề mặt căng bóng được lựa chọn kỹ càng và màu sắc đặc trưng của cacao tạo nên sản phẩm.
             </p>
@@ -195,7 +204,7 @@
         </div>
         <div class="row">
           <p>
-            Công ty trách nhiệm hữu hạn  Sweet In có chi phí thấp, là dự án khởi nghiệp vì chúng tôi tin rằng Châu Á đang chuyển mình không chỉ có sản xuất mà còn tiêu dùng kèm theo. 
+            Công ty trách nhiệm hữu hạn  Sweet In có chi phí thấp, là dự án khởi nghiệp vì chúng tôi tin rằng Châu Á đang chuyển mình không chỉ có sản xuất mà còn tiêu dùng kèm theo.
             <br/>
             Bánh gạo phủ socôla được lựa chọn để khởi nghiệp thỏa được các tiêu chí mà doanh nghiệp chúng tôi đang theo đuổi như sau:<br/>
              * Mua tốt nhất trong danh mục của mình<br/>
@@ -218,7 +227,7 @@
                 CEO
               </div>
               <div class="phone">
-                +84-9-61766627
+                <a href="tel:+84-9-61766627">+84-9-61766627</a>
               </div>
               <div class="email">
                 <a href="mailto:hien@sweet-in.vn">hien@sweet-in.vn</a>
@@ -237,7 +246,7 @@
                 Giám Đốc Kinh Doanh Toàn Quốc
               </div>
               <div class="phone">
-                +84-9-63270209
+                <a href="tel:+84-9-63270209">+84-9-63270209</a>
               </div>
               <div class="email">
                 <a href="mailto:dao@sweet-in.vn">dao@sweet-in.vn</a>
@@ -256,7 +265,7 @@
                 Tạp vụ
               </div>
               <div class="phone">
-                +84-1-229880451 | +85-25-8014149 | +381-64-4892313
+                <a href="tel:+84-1-229880451">+84-1-229880451</a> | <a href="tel:+85-25-8014149">+85-25-8014149</a> | <a href="tel:+381-64-4892313">+381-64-4892313</a>
               </div>
               <div class="email">
                 <a href="mailto:oliver@sweet-in.vn">oliver@sweet-in.vn</a>
@@ -275,12 +284,27 @@
           <span class="underline underline-red"></span>
         </div>
         <div class="row">
-          <?php 
+          <?php
             //Language code for including translation file and reCAPTCHA language
             //see https://developers.google.com/recaptcha/docs/language
             $lang_code = 'vn';
             include 'contact_form.php';
            ?>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="block block-6" id="block-6">
+    <div class="container">
+      <div class="maintitle">
+        <h1>
+          Like Us on Facebook
+        </h1>
+        <span class="underline underline-gold"></span>
+      </div>
+      <div class="row like-row">
+        <div class="like-box-wrapper">
+          <div class="fb-page" data-href="https://www.facebook.com/B&#xe1;nh-C&#x1ed1;m-G&#x1ea1;o-Pionir-Mony-Rice-Nh&#x1ead;p-Kh&#x1ea9;u-T&#x1eeb;-Serbia-382454305506448/" data-tabs="timeline, messages" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/B&#xe1;nh-C&#x1ed1;m-G&#x1ea1;o-Pionir-Mony-Rice-Nh&#x1ead;p-Kh&#x1ea9;u-T&#x1eeb;-Serbia-382454305506448/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/B&#xe1;nh-C&#x1ed1;m-G&#x1ea1;o-Pionir-Mony-Rice-Nh&#x1ead;p-Kh&#x1ea9;u-T&#x1eeb;-Serbia-382454305506448/">Bánh Cốm Gạo Pionir Mony Rice Nhập Khẩu Từ Serbia</a></blockquote></div>
         </div>
       </div>
     </div>
